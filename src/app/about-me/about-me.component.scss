@@ -1,15 +1,15 @@
 .about-me-container {
-    overflow: hidden !important;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background: #1b1b1b;
     /* Dark theme */
     color: #eaeaea;
     /* Light text */
     padding: 0 2rem;
     gap: 3rem;
+    overflow: hidden !important;
 
     /* For Desktop and Larger Screens */
     @media (min-width: 1024px) {

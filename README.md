@@ -1,59 +1,39 @@
-# MyPortfolio
+# Muhammad Hamza Sajid - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Welcome to my personal portfolio website! This website showcases my skills, projects, and professional experience as a Full-Stack Web Developer. I specialize in creating dynamic and user-friendly web applications using modern technologies like Angular, Ionic, Node.js, PostgreSQL, MongoDB, and more.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Interactive Layout**: Smooth animations and a responsive layout ensure that the website looks great on all screen sizes.
+- **Skills Section**: Displays the technologies I specialize in, with badges that animate when they come into view.
+- **Projects Showcase**: A section where you can explore some of the projects I’ve worked on, each with a link to live demos and more detailed information.
+- **About Me**: A brief introduction to who I am, my experience, and my expertise as a developer.
+- **Downloadable Resume**: A button to download my resume and learn more about my skills and experience.
 
-```bash
-ng serve
-```
+## Technologies Used
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Frontend**: 
+  - Angular
+  - PrimeNG (for UI components)
+  - SCSS (for styling)
+  - Intersection Observer API (for scroll-triggered animations)
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+- **Version Control**:
+  - Git and GitHub for source code management
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## Live Demo
 
-## Building
+You can check out the live version of the portfolio at the following link:
 
-To build the project run:
+[Live Demo](https://your-portfolio-link.com)
 
-```bash
-ng build
-```
+## Installation
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+To run this project locally, follow these steps:
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
