@@ -1,0 +1,18 @@
+<section class="projects-container" id="my-projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+        @for (project of projects; track $index) {
+        <div class="project-card">
+            <h3 class="project-title">{{ project.name }}</h3>
+            <p class="project-description">{{ project.description }}</p>
+            <div class="project-tech">
+                @for (tech of project.technologies; track $index) {
+                <span class="tech-badge">{{ tech }}</span>
+                }
+            </div>
+            <a [href]="project.link" target="_blank" class="project-link">View Project</a>
+        </div>
+        }
+    </div>
+</section>

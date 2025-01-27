@@ -1,0 +1,45 @@
+.home {
+    overflow-y: hidden;
+}
+
+::ng-deep .p-dock {
+    position: fixed !important;
+    top: 50% !important;
+    /* Center vertically */
+    left: 0 !important;
+    /* Align to the left */
+    transform: translateY(-50%) !important;
+    /* Adjust for vertical centering */
+    border-radius: 0;
+    /* Remove unnecessary round edges */
+    --p-dock-background: transparent;
+
+    .p-dock-list-container {
+        border: 0px solid black !important;
+        height: max-content;
+    }
+
+    .p-dock-item-link {
+        border: 0px solid black !important;
+        width: 70px;
+        height: auto;
+    }
+}
+
+::ng-deep .p-dock-item {
+    border-width: 0px;
+    border-radius: 50%;
+    /* Make icons circular */
+    transition: transform 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+::ng-deep .p-dock-item-icon {
+    border: 1px solid red;
+
+}
+
+::ng-deep .p-dock-item:hover {
+    transform: scale(1.08);
+    /* Slightly enlarge the icon on hover */
+}

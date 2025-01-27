@@ -1,0 +1,205 @@
+.about-me-container {
+    overflow: hidden !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b1b;
+    /* Dark theme */
+    color: #eaeaea;
+    /* Light text */
+    padding: 0 2rem;
+    gap: 3rem;
+
+    /* For Desktop and Larger Screens */
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
+
+    /* For Tablets and Smaller Screens */
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        /* Stack items vertically */
+        text-align: center;
+        /* Center align text */
+    }
+
+    @media (max-width: 768px) {
+        padding: 100px 0px;
+    }
+
+    .profile-picture {
+        position: relative;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .aura {
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(46, 204, 113, 0.5), transparent 70%);
+            box-shadow: 0px 0px 20px 10px rgba(46, 204, 113, 0.6);
+            animation: pulsate 2.5s infinite ease-in-out;
+
+            @media (max-width: 768px) {
+                width: 170px;
+                height: 170px;
+            }
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #2ecc71;
+            /* Neon border */
+            box-shadow: 0px 0px 15px rgba(46, 204, 113, 0.8);
+
+            @media (max-width: 768px) {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            padding-left: 20%;
+        }
+    }
+
+    .bio {
+        flex: 2;
+
+        .animated-header {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            animation: slideInFromLeft 1s ease-out;
+
+            @media (max-width: 768px) {
+                font-size: 1.8rem;
+                justify-self: end;
+                padding-left: 20%;
+            }
+        }
+
+        .animated-paragraph {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #bdbdbd;
+            animation: fadeIn 2s ease-out;
+
+            @media (max-width: 768px) {
+                font-size: 0.9rem;
+                line-height: 1.4;
+                padding-left: 20%;
+            }
+        }
+
+        .skills {
+            margin-top: 1.5rem;
+
+            .skill-badge {
+                display: inline-block;
+                background: #2ecc71;
+                color: #1b1b1b;
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                margin-right: 0.5rem;
+                font-size: 0.9rem;
+                font-weight: bold;
+                animation: zoomIn 0.8s ease-in-out;
+
+                @media (max-width: 768px) {
+                    font-size: 0.8rem;
+                    padding: 0.5rem 0.8rem;
+                    margin: 0.2rem;
+                }
+            }
+
+            @media (max-width: 768px) {
+                padding-left: 20%;
+            }
+        }
+
+        .download-resume-btn {
+            margin-top: 2rem;
+            background: #2ecc71;
+            color: #1b1b1b;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 8px rgba(46, 204, 113, 0.4);
+
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0px 6px 12px rgba(46, 204, 113, 0.6);
+            }
+
+            @media (max-width: 768px) {
+                font-size: 0.9rem;
+                padding: 0.6rem 1.2rem;
+                margin-left: 20%;
+            }
+        }
+    }
+}
+
+/* Keyframe Animations */
+@keyframes pulsate {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.8;
+
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
+
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

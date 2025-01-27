@@ -1,0 +1,13 @@
+<div class="home">
+    <p-dock [model]="items" position="left" class="horizontal-label-dock">
+        <ng-template #item let-item>
+            <img [pTooltip]="item.label" tooltipPosition="top" [src]="item.icon" [alt]="item.label" width="70%"
+                display="block" (click)="scrollToSection(item.id)" />
+            <p class="dock-label" (click)="scrollToSection(item.id)">{{ item.label }}</p>
+        </ng-template>
+    </p-dock>
+    <app-about-me></app-about-me>
+    <app-skills></app-skills>
+    <app-projects></app-projects>
+    <app-connect></app-connect>
+</div>

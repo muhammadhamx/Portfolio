@@ -1,0 +1,14 @@
+<section class="skills-container" id="my-skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+        <div *ngFor="let category of skills; let categoryIndex = index" class="skill-category">
+            <h3 class="category-title">{{ category.name }}</h3>
+            <div class="skill-badges">
+                <span *ngFor="let skill of category.items" class="skill-badge">
+                    {{ skill }}
+                </span>
+            </div>
+        </div>
+    </div>
+</section>

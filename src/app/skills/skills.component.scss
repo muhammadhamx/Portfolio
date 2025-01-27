@@ -1,0 +1,123 @@
+.skills-container {
+    padding: 4rem 2rem;
+    padding-bottom: 200px;
+    /* Ensures enough spacing at the bottom */
+    background: #1b1b1b;
+    /* Dark theme */
+    color: #eaeaea;
+    /* Light text */
+
+    .section-title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #2ecc71;
+        /* Accent color */
+        position: relative;
+        opacity: 0;
+        transform: translateY(-20px);
+        /* Initial animation state */
+        animation: fadeInDown 1s ease-out forwards;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* Responsive grid */
+        gap: 2rem;
+        margin-left: 100px;
+        /* Adjust for dock or layout needs */
+        padding: 0 1rem;
+        /* Extra padding for smaller screens */
+
+        .skill-category {
+            background: #242424;
+            /* Slightly lighter background for contrast */
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            /* Initial state for animation */
+            transform: translateY(50px);
+            /* Initial animation state */
+            transition: transform 0.5s ease, opacity 0.5s ease;
+
+            &:hover {
+                transform: translateY(-10px);
+                /* Lift effect on hover */
+                box-shadow: 0 6px 12px rgba(46, 204, 113, 0.7);
+                /* Highlight effect */
+            }
+
+            .category-title {
+                font-size: 1.8rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+                color: #2ecc71;
+                /* Accent color */
+                text-align: center;
+            }
+
+            .skill-badges {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                justify-content: center;
+
+                .skill-badge {
+                    background: #2ecc71;
+                    /* Badge color */
+                    color: #1b1b1b;
+                    /* Text contrast */
+                    padding: 0.5rem 1rem;
+                    border-radius: 20px;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        /* Slight zoom on hover */
+                        box-shadow: 0 4px 10px rgba(46, 204, 113, 0.7);
+                        /* Glow effect */
+                    }
+                }
+            }
+
+            &.in-view {
+                opacity: 1;
+                /* Visible when in view */
+                transform: translateY(0);
+                /* Reset animation state */
+            }
+        }
+    }
+}
+
+/* Keyframe Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .skills-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        .skills-grid {
+            margin-left: 0;
+            padding-left: 20%;
+            /* Remove margin for smaller screens */
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<section class="connect-container" id="connect-me">
+    <h2 class="section-title">Connect With Me</h2>
+
+    <div class="contact-cards">
+        <div *ngFor="let contact of contactInfo" class="contact-card">
+            <a [href]="contact.link" target="_blank" class="card-content">
+                <!-- <i class="fab fa-{{ contact.icon }}"></i> -->
+                <img [src]="contact.icon" alt="Contact Icon" class="contact-icon">
+                <span>{{ contact.platform }}</span>
+            </a>
+        </div>
+    </div>
+</section>
