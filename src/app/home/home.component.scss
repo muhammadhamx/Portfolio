@@ -1,5 +1,6 @@
 .home {
     overflow-y: hidden;
+    padding: 10px;
 }
 
 ::ng-deep .p-dock {
@@ -23,6 +24,10 @@
         border: 0px solid black !important;
         width: 70px;
         height: auto;
+    }
+
+    .dock-label {
+        color: white !important;
     }
 }
 
