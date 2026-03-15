@@ -73,7 +73,7 @@ export default function TerminalApp({ openApp }: TerminalAppProps) {
         return NEOFETCH;
       case 'about':
       case 'whoami':
-        return 'Muhammad Hamza Sajid — Lead Software Engineer\n4+ years | 9 production systems | Full Stack + AI\nPromoted from Senior to Lead at Camden Health System.';
+        return 'Muhammad Hamza Sajid — Lead Software Engineer\n4+ years | 9 production systems | Full Stack + AI';
       case 'skills':
         return [
           'Backend:   Node.js, Django, FastAPI, NestJS, Express',
@@ -102,7 +102,7 @@ export default function TerminalApp({ openApp }: TerminalAppProps) {
         return [
           'Lead Software Engineer — Camden Health System',
           'Aug 2024 – Feb 2026 | Lahore, Pakistan',
-          '→ Promoted within 6 months. Led 5 engineers.',
+          '→ Led 5 engineers across 4 concurrent products.',
           '→ Architected 4 production systems.',
           '',
           'Senior Software Engineer — HurTech',
