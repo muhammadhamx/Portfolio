@@ -2,7 +2,7 @@
 
 An OS-style interactive portfolio that turns the traditional "scroll and read" experience into something you actually want to play with. Built as a desktop environment with draggable windows, a working terminal, and a Three.js particle wallpaper.
 
-**Live:** [muhammadhamx.github.io/Portfolio](https://muhammadhamx.github.io/Portfolio/)
+**Live:** [muhammadhamxa.vercel.app](https://muhammadhamxa.vercel.app/)
 
 ---
 
