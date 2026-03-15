@@ -106,7 +106,7 @@ export default function WelcomeWidget({ onOpen }: WelcomeWidgetProps) {
         </div>
 
         {/* Hint */}
-        <p className="text-white/[0.15] text-[10px] mt-6 font-[family-name:var(--font-jetbrains-mono)]">
+        <p className="text-dim text-xs mt-6 font-[family-name:var(--font-jetbrains-mono)] tracking-wide">
           click icons on the left or use the quick actions above
         </p>
       </div>
