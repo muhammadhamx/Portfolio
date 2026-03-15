@@ -47,7 +47,7 @@ export default function DesktopIcons({ apps, onOpen }: DesktopIconsProps) {
 
       {/* CV download shortcut */}
       <motion.a
-        href="/cv/Muhammad_Hamza_Sajid_CV.docx"
+        href="/cv/Muhammad_Hamza_Sajid_CV.pdf"
         download
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}

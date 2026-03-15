@@ -140,7 +140,7 @@ export default function TerminalApp({ openApp }: TerminalAppProps) {
       case 'resume':
       case 'cv': {
         const link = document.createElement('a');
-        link.href = '/cv/Muhammad_Hamza_Sajid_CV.docx';
+        link.href = '/cv/Muhammad_Hamza_Sajid_CV.pdf';
         link.download = '';
         link.click();
         return 'Downloading resume...';
