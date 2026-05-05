@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import { stats } from '@/lib/data';
 
 const paragraphs = [
-  'Lead Software Engineer with 4+ years of experience architecting and shipping 9 production systems across healthcare, insurtech, fintech, and real-time communication.',
-  'Promoted from Senior to Lead Engineer based on consistent delivery ownership and technical leadership.',
-  'Fluent across the full stack — Node.js/Django/FastAPI backends, React/Angular/Next.js frontends, PostgreSQL/MongoDB/Redis data layers, AI integration pipelines, and AWS/Docker infrastructure.',
+  'Senior Full-Stack Software Engineer with 4+ years of experience building and shipping 9 production-grade systems across healthcare, fintech, insurtech, and real-time communication domains.',
+  'Deep expertise in React.js, Node.js, NestJS, Django, PostgreSQL, MongoDB, Docker, and AWS.',
+  'Delivered scalable full-stack platforms for UK and EU clients, led 5-engineer teams, and owned projects end-to-end -  from system architecture through CI/CD deployment and post-launch stability.',
 ];
 
 function useCountUp(target: number, duration = 2000) {
