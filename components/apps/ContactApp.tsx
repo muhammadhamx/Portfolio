@@ -33,7 +33,7 @@ export default function ContactApp() {
           Let&apos;s Build Something.
         </p>
         <p className="text-dim text-xs mt-1">
-          Open to Lead Engineer roles in Islamabad / Rawalpindi and remote opportunities.
+          Open to Senior Software Engineer roles in Islamabad / Rawalpindi and remote opportunities.
         </p>
       </div>
 
