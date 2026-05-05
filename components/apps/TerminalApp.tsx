@@ -17,7 +17,7 @@ const NEOFETCH = `
   hamza@portfolio
   ─────────────────
   OS:        HamzaOS v2.0
-  Role:      Senior Software Engineer
+  Role:      Senior Software Engineer 
   Exp:       4+ years
   Systems:   9 shipped to production
   Team:      5 engineers led
