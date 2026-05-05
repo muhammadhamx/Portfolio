@@ -54,24 +54,21 @@ export default function AboutApp() {
           <h2 className="font-[family-name:var(--font-space-grotesk)] text-xl font-bold text-text">
             Muhammad Hamza Sajid
           </h2>
-          <p className="text-cyan text-sm">Lead Software Engineer</p>
+          <p className="text-cyan text-sm">Senior Software Engineer</p>
         </div>
       </div>
 
       {/* Bio */}
       <div className="space-y-3 text-dim text-sm leading-relaxed">
         <p>
-          Lead Software Engineer with 4+ years of experience architecting and shipping 9 production
-          systems across healthcare, insurtech, fintech, and real-time communication.
+         Senior Full-Stack Software Engineer with 4+ years of experience building and shipping 9 production-grade systems across healthcare, fintech, insurtech, and real-time communication domains
         </p>
         <p>
-          Promoted from Senior to Lead Engineer based on consistent delivery ownership and technical
-          leadership.
+          Deep expertise in React.js, Node.js, NestJS, Django, PostgreSQL, MongoDB, Docker, and AWS.
         </p>
         <p>
-          Fluent across the full stack &mdash; Node.js/Django/FastAPI backends, React/Angular/Next.js
-          frontends, PostgreSQL/MongoDB/Redis data layers, AI integration pipelines, and AWS/Docker
-          infrastructure.
+          Delivered scalable full-stack platforms for UK and EU clients, led 5-engineer teams, and owned projects end-to-end — from system architecture through CI/CD deployment and post-launch stability.
+
         </p>
       </div>
 
@@ -89,7 +86,7 @@ export default function AboutApp() {
           <span className="text-green text-xs font-[family-name:var(--font-jetbrains-mono)]">AVAILABLE</span>
         </div>
         <p className="text-dim text-xs">
-          Open to Lead Engineer roles in Islamabad / Rawalpindi and remote opportunities.
+          Open to Senior Software Engineer roles in Islamabad / Rawalpindi and remote opportunities.
         </p>
       </div>
     </div>
