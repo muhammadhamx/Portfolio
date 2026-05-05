@@ -73,7 +73,7 @@ export default function TerminalApp({ openApp }: TerminalAppProps) {
         return NEOFETCH;
       case 'about':
       case 'whoami':
-        return 'Muhammad Hamza Sajid — Lead Software Engineer\n4+ years | 9 production systems | Full Stack + AI';
+        return 'Muhammad Hamza Sajid — Senior Software Engineer\n4+ years | 9 production systems | Full Stack + AI';
       case 'skills':
         return [
           'Backend:   Node.js, Django, FastAPI, NestJS, Express',
