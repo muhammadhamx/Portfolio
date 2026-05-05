@@ -7,9 +7,9 @@ import { motion, useAnimation } from 'framer-motion';
 const ParticleField = dynamic(() => import('./ParticleField'), { ssr: false });
 
 const NAME = 'MUHAMMAD HAMZA SAJID';
-const TITLE = 'Lead Software Engineer';
+const TITLE = 'Senior Software Engineer';
 const TAGLINE = 'Architecting systems that scale. Leading teams that ship.';
-const BADGES = ['4+ Years', '9 Production Systems', 'Lead → Architect'];
+const BADGES = ['4+ Years', '9 Production Systems', 'Senior → Architect'];
 const BOOT_DELAY = 3500; // ms - wait for boot sequence
 
 export default function Hero() {
