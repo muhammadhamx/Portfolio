@@ -66,7 +66,7 @@ export default function WelcomeWidget({ onOpen }: WelcomeWidgetProps) {
             Muhammad Hamza Sajid
           </h1>
           <p className="font-[family-name:var(--font-jetbrains-mono)] text-cyan text-xs mt-1 tracking-wider">
-            Lead Software Engineer
+            Senior Software Engineer
           </p>
           <div className="flex items-center gap-2 justify-center mt-2">
             <span className="w-1.5 h-1.5 rounded-full bg-green animate-pulse" />
