@@ -17,7 +17,7 @@ const NEOFETCH = `
   hamza@portfolio
   ─────────────────
   OS:        HamzaOS v2.0
-  Role:      Lead Software Engineer
+  Role:      Senior Software Engineer
   Exp:       4+ years
   Systems:   9 shipped to production
   Team:      5 engineers led
@@ -100,14 +100,14 @@ export default function TerminalApp({ openApp }: TerminalAppProps) {
       case 'experience':
       case 'exp':
         return [
-          'Lead Software Engineer — Camden Health System',
+          'Senior Software Engineer — Camden Health System',
           'Aug 2024 – Feb 2026 | Lahore, Pakistan',
           '→ Led 5 engineers across 4 concurrent products.',
-          '→ Architected 4 production systems.',
+          '→ Architected 7 production systems.',
           '',
-          'Senior Software Engineer — HurTech',
-          'Mar 2021 – Jul 2024 | Bahawalpur, Pakistan',
-          '→ Most senior engineer. 5 production apps shipped.',
+          'Software Engineer — HurTech',
+          'Mar 2022 – Jul 2024 | Bahawalpur, Pakistan',
+          '→ Engineered . 2 production apps shipped.',
           '',
           "Type 'open experience' for full details.",
         ].join('\n');
